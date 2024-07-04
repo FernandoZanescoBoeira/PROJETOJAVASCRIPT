@@ -1,8 +1,11 @@
-alert("Olá Queridos Alunos do 3B, bão?")
-alert('Boas-vindas ao jogo do número secreto');
+alert('Boas vindas ao jogo do número secreto');
 let numeroSecreto = 5;
+console.log('numeroSecreto')
 let chute = prompt('Escolha um número entre 1 e 10');
 
+// se chute for igual ao número secreto
 if (chute == numeroSecreto) {
-        console.log("Isso aí! você descobriu o número secreto (5)");
+    alert('Isso ai! Você descobriu o número secreto (5)');
+} else {
+    alert('Você errou :(')
 }
